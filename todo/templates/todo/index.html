@@ -25,7 +25,7 @@ ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
   list-style-type: none;
-  background: #eee;
+  background: #d4d2d2;
   font-size: 18px;
   transition: 0.2s;
   
@@ -76,13 +76,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: #24d6d0;
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #24d6d0;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -121,25 +121,20 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: #a6a4a4;
 }
 </style>
 </head>
 <body>
 
 <div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
+  <h2 style="margin:5px"></h2>
+  <input type="text" id="myInput" placeholder="Enter your tasks here...">
+  <span onclick="newElement()" class="addBtn">Submit</span>
 </div>
 
 <ul id="myUL">
-  <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
-  <li>Meet George</li>
-  <li>Buy eggs</li>
-  <li>Read a book</li>
-  <li>Organize office</li>
+  
 </ul>
 
 <script>
